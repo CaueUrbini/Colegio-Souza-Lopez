@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colégio Souza Lopez - Ensino Fundamental e Médio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="logo-container">
+          <img src="img/image.png" alt="Logo CSL" class="logo" />
+          <div>
+            <h1 class="site-title">Colégio Souza Lopez</h1>
+            <p class="site-subtitle">Ensino Fundamental e Médio</p>
+          </div>
+        </div>
+
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+
+        <nav id="mainNav">
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#niveis">Níveis de Ensino</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#ferramentas">Ferramentas</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <a href="#" class="login-btn" id="loginButton">Área do Aluno</a>
+      </div>
+    </header>
+
+    <section class="hero" id="inicio">
+      <div class="container">
+        <h1>Educação que transforma o futuro</h1>
+        <p>
+          Há mais de 30 anos formando cidadãos com excelência acadêmica, valores
+          éticos e responsabilidade social.
+        </p>
+        <div class="hero-buttons">
+          <a href="#sobre" class="btn btn-accent">Conheça nossa escola</a>
+          <a href="#contato" class="btn btn-secondary">Entre em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <h2 class="section-title">Sobre o Colégio Souza Lopez</h2>
+        <div class="sobre-content">
+          <div class="sobre-image">
+            <img src="img/escola.jpg" alt="Sobre o Colégio" />
+          </div>
+          <div class="sobre-text">
+            <h3>Uma história de excelência e compromisso com a educação</h3>
+            <p>
+              Fundado em 1990, o Colégio Souza Lopez nasceu do sonho de oferecer
+              uma educação transformadora e de qualidade. Com metodologias
+              inovadoras e um corpo docente altamente qualificado, construímos
+              um ambiente de aprendizagem estimulante e acolhedor.
+            </p>
+            <p>
+              Nossa missão é formar cidadãos críticos, criativos e preparados
+              para os desafios do século XXI, aliando conhecimento acadêmico,
+              desenvolvimento socioemocional e valores humanos.
+            </p>
+            <p>
+              Contamos com uma infraestrutura moderna, laboratórios equipados,
+              espaços de convivência e uma proposta pedagógica que valoriza o
+              protagonismo do aluno em seu processo de aprendizagem.
+            </p>
+            <a href="#" class="btn btn-primary"
+              >Saiba mais sobre nossa história</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="niveis" id="niveis">
+      <div class="container">
+        <h2 class="section-title">Níveis de Ensino</h2>
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/fudamental1.png" alt="Ensino Fundamental I" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Ensino Fundamental I</h3>
+              <p class="card-text">
+                Do 1º ao 5º ano, estimulamos a curiosidade e o prazer em
+                aprender, com atividades lúdicas e projetos interdisciplinares
+                que desenvolvem habilidades essenciais para a vida.
+              </p>
+              <a href="#" class="btn btn-secondary">Ver detalhes</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="img/fundalmental2.png" alt="Ensino Fundamental II" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Ensino Fundamental II</h3>
+              <p class="card-text">
+                Do 6º ao 9º ano, aprofundamos os conhecimentos acadêmicos com
+                metodologias ativas e projetos que desenvolvem autonomia,
+                responsabilidade e trabalho em equipe.
+              </p>
+              <a href="#" class="btn btn-secondary">Ver detalhes</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="img/medio.png" alt="Ensino Médio" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Ensino Médio</h3>
+              <p class="card-text">
+                Preparamos nossos alunos para os desafios do vestibular e da
+                vida, com formação acadêmica sólida, desenvolvimento de
+                competências e orientação para escolha profissional.
+              </p>
+              <a href="#" class="btn btn-secondary">Ver detalhes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="diferenciais" id="diferenciais">
+      <div class="container">
+        <h2 class="section-title">Nossos Diferenciais</h2>
+        <div class="diff-container">
+          <div class="diff-item">
+            <div class="diff-icon">📚</div>
+            <h3 class="diff-title">Metodologia Inovadora</h3>
+            <p class="diff-text">
+              Abordagem pedagógica que integra tecnologia, projetos
+              interdisciplinares e aprendizagem ativa.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <div class="diff-icon">👩‍🏫</div>
+            <h3 class="diff-title">Corpo Docente Qualificado</h3>
+            <p class="diff-text">
+              Professores com formação superior, constante atualização e paixão
+              pelo ensino.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <div class="diff-icon">🔬</div>
+            <h3 class="diff-title">Laboratórios Modernos</h3>
+            <p class="diff-text">
+              Espaços equipados para experimentação científica, tecnológica e
+              artística.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <div class="diff-icon">🌎</div>
+            <h3 class="diff-title">Inglês Bilíngue</h3>
+            <p class="diff-text">
+              Programa de inglês com aulas diárias e imersão na língua para
+              fluência natural.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <div class="diff-icon">🏆</div>
+            <h3 class="diff-title">Atividades Extracurriculares</h3>
+            <p class="diff-text">
+              Diversas opções esportivas, culturais e acadêmicas para
+              desenvolvimento integral.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <div class="diff-icon">❤️</div>
+            <h3 class="diff-title">Acompanhamento Personalizado</h3>
+            <p class="diff-text">
+              Atenção ao desenvolvimento individual com apoio pedagógico e
+              emocional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ferramentas" id="ferramentas">
+      <div class="container">
+        <h2 class="section-title">Ferramentas Digitais</h2>
+        <div class="tools-container">
+          <div class="tool-section">
+            <h3>Digitalizador de Documentos</h3>
+            <p>
+              Converta seus documentos físicos em arquivos digitais facilmente.
+              Basta selecionar as imagens que deseja processar.
+            </p>
+            <input
+              type="file"
+              id="scanInput"
+              accept="image/*"
+              multiple
+              class="file-input"
+            />
+            <label for="scanInput">Selecionar Imagens</label>
+            <button class="btn btn-primary" id="processScans">
+              Processar Documentos
+            </button>
+            <div
+              id="scanResults"
+              class="output-container"
+              style="display: none"
+            >
+              <h4>Documentos Processados:</h4>
+              <div id="processedDocs"></div>
+            </div>
+          </div>
+
+          <div class="tool-section">
+            <h3>Conversor de Imagem para PDF</h3>
+            <p>
+              Transforme imagens em documentos PDF com qualidade profissional.
+            </p>
+            <input
+              type="file"
+              id="pdfInput"
+              accept="image/*"
+              class="file-input"
+            />
+            <label for="pdfInput">Selecionar Imagem</label>
+            <span id="pdfFileName" class="file-name"></span>
+            <button class="btn btn-primary" id="convertToPdfBtn">
+              Converter para PDF
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
